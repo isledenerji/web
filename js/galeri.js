@@ -1,15 +1,15 @@
   
   var resim1 = document.getElementById('resim1');
-  var video1 = document.getElementById('video1');
+  // var video1 = document.getElementById('video1');
   // fsImgButton.addEventListener('click', function(e) {
   //     e.preventDefault();
   //     requestFullscreen(image);
   // });
 
-  video1.addEventListener('click', function(e) {
-      e.preventDefault();
-      requestFullscreen(video1);
-  });
+  // video1.addEventListener('click', function(e) {
+  //     e.preventDefault();
+  //     requestFullscreen(video1);
+  // });
 
   resim1.addEventListener('click', function(e) {
       e.preventDefault();
@@ -165,3 +165,6 @@
     radius += d;
     init(1);
   };
+
+
+  

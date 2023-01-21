@@ -877,43 +877,30 @@ a:focus {
   justify-content: center;
   align-items: center;
   position: relative;
-
-
 }
 
+#hakkimizda{
+  padding-top: 150px;
+  max-height: 900px;
+  display: block;
+}
 
+#info {
+  overflow: hidden;
+}
 
 .swiper {
-  align-items:center;
-  position:fixed;
-  width: 1000px;
-  height: 100%;
-  
+  display: block;
 }
 
 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
-display:inline-block;
-  
-}
-
-.swiper-slide img {
-
-  position:relative; 
-  width: 50%;
-  height: 100%;
-  object-fit:calc(100%);
-  margin: 0;
-  padding: 0;
-  margin-top: 0px;
-  position: static;
-  top: -50px;
+  display:inline-block;
 }
 
 .videos{
-
   position:relative;
   text-align-last: center;
   background-color:#ffffff;
@@ -922,5 +909,26 @@ display:inline-block;
   display:inline-block;
 }
 
+.social-box a {
+  color: white;
+  transition: 0.5s color;
+  font-size: 25px;
+  margin-right: 20px;
+}
 
+.social-box a:nth-child(1):hover {
+  color: red;
+}
+
+.social-box a:nth-child(2):hover {
+  color: #c13584
+}
+
+.social-box a:nth-child(3):hover {
+  color: #1DA1F2
+}
+
+.social-box a:nth-child(4):hover {
+  color: #3b5998
+}
 
